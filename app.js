@@ -16,4 +16,4 @@ app.use("/", (req, res) => {
   return res.render("index");
 });
 
-app.listen(5001, () => console.log("App listening.."));
+app.listen(3000, () => console.log("App listening.."));
