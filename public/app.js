@@ -1,6 +1,6 @@
 const loadRandomName = (resultDiv) => {
   console.log("inside clic");
-  fetch("https://random-name-generator-345619.uw.r.appspot.com/random-name")
+  fetch("https://random-generator-345622.uw.r.appspot.com/random-name")
     .then((response) => response.json())
     .then((result) => {
       resultDiv.classList.add("alert", "alert-success");
